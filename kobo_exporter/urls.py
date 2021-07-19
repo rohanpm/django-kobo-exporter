@@ -1,7 +1,9 @@
-from django.urls import path
+from django.conf.urls import url
 
 from . import views
+from .django_compat import patterns
 
-urlpatterns = [
-    path("metrics", views.metrics),
-]
+urlpatterns = patterns(
+    "",
+    url(r"^metrics/?$", views.metrics),
+)

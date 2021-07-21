@@ -1,0 +1,12 @@
+# HELP kobo_worker_enabled 1 if worker is enabled
+# TYPE kobo_worker_enabled gauge
+# HELP kobo_worker_last_seen_seconds Time of worker's last communication with hub
+# TYPE kobo_worker_last_seen_seconds gauge
+# HELP kobo_worker_load Current load of worker (sum of task weights)
+# TYPE kobo_worker_load gauge
+# HELP kobo_worker_max_load Maximum permitted load of worker
+# TYPE kobo_worker_max_load gauge
+# HELP kobo_worker_open_tasks Current number of OPEN tasks for worker
+# TYPE kobo_worker_open_tasks gauge
+# HELP kobo_worker_ready 1 if worker is ready
+# TYPE kobo_worker_ready gauge

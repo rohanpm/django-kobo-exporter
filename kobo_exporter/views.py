@@ -1,13 +1,18 @@
-from django.http.response import HttpResponse
+import calendar
 
+from django.http.response import HttpResponse
+from kobo.hub.models import Worker
 from prometheus_client import (
+    CONTENT_TYPE_LATEST,
     CollectorRegistry,
     Gauge,
     generate_latest,
-    CONTENT_TYPE_LATEST,
 )
 
-from kobo.hub.models import Worker
+
+def timestamp(dt):
+    # Like datetime.timestamp() but also works in python2.
+    return calendar.timegm(dt.utctimetuple())
 
 
 class Metrics(object):
@@ -68,13 +73,13 @@ def metrics_string(workers):
 
     getters = [
         (metrics.worker_enabled, lambda w: 1 if w.enabled else 0),
-        (metrics.worker_ready, lambda w: 1 if w.enabled else 0),
+        (metrics.worker_ready, lambda w: 1 if w.ready else 0),
         (metrics.worker_load, lambda w: w.current_load),
         (metrics.worker_max_load, lambda w: w.max_load),
         (metrics.worker_open_tasks, lambda w: w.task_count),
         (
             metrics.worker_last_seen,
-            lambda w: int(w.last_seen.timestamp()) if w.last_seen else 0,
+            lambda w: int(timestamp(w.last_seen)) if w.last_seen else 0,
         ),
     ]
 

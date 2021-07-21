@@ -1,0 +1,43 @@
+name: Tox tests
+
+on:
+  push:
+   branches:
+   - main
+  pull_request:
+   branches:
+   - main
+
+jobs:
+  legacy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 2.7
+
+      - name: Install pip
+        # note: tox installed via apt doesn't play well with old python
+        run: pip install tox
+
+      - name: Run Tox
+        run: tox -e legacy
+
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Install system dependencies
+        run: sudo apt-get install -y tox
+
+      - name: Run Tox
+        run: tox -e tests

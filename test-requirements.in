@@ -1,0 +1,7 @@
+# requirements for testing in typical (latest version) scenario
+django
+prometheus-client
+kobo
+pytest
+pytest-cov
+pytest-django

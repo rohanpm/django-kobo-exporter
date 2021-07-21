@@ -1,0 +1,24 @@
+# HELP kobo_worker_enabled 1 if worker is enabled
+# TYPE kobo_worker_enabled gauge
+kobo_worker_enabled{worker="worker1"} 0.0
+kobo_worker_enabled{worker="worker2"} 1.0
+# HELP kobo_worker_last_seen_seconds Time of worker's last communication with hub
+# TYPE kobo_worker_last_seen_seconds gauge
+kobo_worker_last_seen_seconds{worker="worker1"} 1.626743511e+09
+kobo_worker_last_seen_seconds{worker="worker2"} 1.626743511e+09
+# HELP kobo_worker_load Current load of worker (sum of task weights)
+# TYPE kobo_worker_load gauge
+kobo_worker_load{worker="worker1"} 123.0
+kobo_worker_load{worker="worker2"} 0.0
+# HELP kobo_worker_max_load Maximum permitted load of worker
+# TYPE kobo_worker_max_load gauge
+kobo_worker_max_load{worker="worker1"} 456.0
+kobo_worker_max_load{worker="worker2"} 1.0
+# HELP kobo_worker_open_tasks Current number of OPEN tasks for worker
+# TYPE kobo_worker_open_tasks gauge
+kobo_worker_open_tasks{worker="worker1"} 789.0
+kobo_worker_open_tasks{worker="worker2"} 0.0
+# HELP kobo_worker_ready 1 if worker is ready
+# TYPE kobo_worker_ready gauge
+kobo_worker_ready{worker="worker1"} 1.0
+kobo_worker_ready{worker="worker2"} 0.0

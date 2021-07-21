@@ -1,0 +1,7 @@
+# requirements for testing in legacy (oldest versions) scenario
+django==1.8.18
+prometheus-client==0.9.0
+kobo
+pytest
+pytest-cov
+pytest-django

@@ -1,12 +1,17 @@
-django-kobo-exporter
-====================
+# django-kobo-exporter
 
 Prometheus exporter for [kobo](https://github.com/release-engineering/kobo) hub.
 
-**As of 2021-07, this is only a proof of concept!**
+<!--TOC-->
 
-Overview
---------
+- [django-kobo-exporter](#django-kobo-exporter)
+  - [Overview](#overview)
+  - [Usage](#usage)
+  - [License](#license)
+
+<!--TOC-->
+
+## Overview
 
 The [kobo](https://github.com/release-engineering/kobo) framework provides, among
 other things, a Django-based "hub" web service which is used to manage tasks and
@@ -46,8 +51,7 @@ kobo_worker_last_seen_seconds{worker="pub-dev-pubd7"} 0.0
 ```
 
 
-Usage
------
+## Usage
 
 **As of 2021-07, this is not released yet and is not installable from PyPI!**
 
@@ -91,8 +95,7 @@ urlpatterns = [
 
 4. Access metrics at `<your_service>/kobo_exporter/metrics`.
 
-License
--------
+## License
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

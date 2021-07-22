@@ -53,11 +53,11 @@ kobo_worker_last_seen_seconds{worker="pub-dev-pubd7"} 0.0
 
 ## Usage
 
-**As of 2021-07, this is not released yet and is not installable from PyPI!**
+1. Ensure `django-kobo-exporter` is installed, e.g.
 
-(The instructions here explain what *should* be the process to use it, once it's released.)
-
-1. Ensure `django-kobo-exporter` is installed.
+```
+pip install django-kobo-exporter
+```
 
 2. In your app's settings, add `kobo_exporter` to `INSTALLED_APPS`, e.g.
 

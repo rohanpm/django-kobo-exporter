@@ -69,16 +69,16 @@ class Metrics(object):
 
 
 def metrics_string(workers):
-    metrics = Metrics()
+    out = Metrics()
 
     getters = [
-        (metrics.worker_enabled, lambda w: 1 if w.enabled else 0),
-        (metrics.worker_ready, lambda w: 1 if w.ready else 0),
-        (metrics.worker_load, lambda w: w.current_load),
-        (metrics.worker_max_load, lambda w: w.max_load),
-        (metrics.worker_open_tasks, lambda w: w.task_count),
+        (out.worker_enabled, lambda w: 1 if w.enabled else 0),
+        (out.worker_ready, lambda w: 1 if w.ready else 0),
+        (out.worker_load, lambda w: w.current_load),
+        (out.worker_max_load, lambda w: w.max_load),
+        (out.worker_open_tasks, lambda w: w.task_count),
         (
-            metrics.worker_last_seen,
+            out.worker_last_seen,
             lambda w: int(timestamp(w.last_seen)) if w.last_seen else 0,
         ),
     ]
@@ -88,7 +88,7 @@ def metrics_string(workers):
             value = fn(worker)
             metric.labels(worker=worker).set(value)
 
-    return metrics.as_string()
+    return out.as_string()
 
 
 def metrics(_request):

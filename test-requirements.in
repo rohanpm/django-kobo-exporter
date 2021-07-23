@@ -2,6 +2,7 @@
 django
 prometheus-client
 kobo
+pylint
 pytest
 pytest-cov
 pytest-django

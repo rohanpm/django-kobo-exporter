@@ -9,9 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - n/a
 
+## [0.1.2] - 2021-07-23
+
+### Changed
+
+- Minor improvements to docs and internal cleanup.
+
 ## 0.1.1 - 2021-07-22
 
-### Added
+### Changed
 
 - Improved package metadata
 
@@ -20,4 +26,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial release to PyPI
 
 
-[Unreleased]: https://github.com/release-engineering/django-kobo-exporter/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/release-engineering/django-kobo-exporter/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/release-engineering/django-kobo-exporter/compare/v0.1.1...v0.1.2

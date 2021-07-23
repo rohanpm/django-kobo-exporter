@@ -2,6 +2,9 @@
 
 Prometheus exporter for [kobo](https://github.com/release-engineering/kobo) hub.
 
+![tests](https://github.com/release-engineering/django-kobo-exporter/actions/workflows/tox-tests.yml/badge.svg)
+[![PyPI version](https://badge.fury.io/py/django-kobo-exporter.svg)](https://badge.fury.io/py/django-kobo-exporter)
+
 <!--TOC-->
 
 - [django-kobo-exporter](#django-kobo-exporter)

@@ -21,38 +21,8 @@ other things, a Django-based "hub" web service which is used to manage tasks and
 workers.
 
 django-kobo-exporter is a Django app which may be installed to a kobo hub in
-order to add a [prometheus](https://prometheus.io/)-compatible metrics endpoint.
-
-The metrics endpoint will provide basic information on workers.
-Here's an example of the included metrics:
-
-```
-# HELP kobo_worker_enabled 1 if worker is enabled
-# TYPE kobo_worker_enabled gauge
-kobo_worker_enabled{worker="localhost"} 1.0
-kobo_worker_enabled{worker="pub-dev-pubd7"} 1.0
-# HELP kobo_worker_ready 1 if worker is ready
-# TYPE kobo_worker_ready gauge
-kobo_worker_ready{worker="localhost"} 1.0
-kobo_worker_ready{worker="pub-dev-pubd7"} 1.0
-# HELP kobo_worker_load Current load of worker (sum of task weights)
-# TYPE kobo_worker_load gauge
-kobo_worker_load{worker="localhost"} 0.0
-kobo_worker_load{worker="pub-dev-pubd7"} 0.0
-# HELP kobo_worker_max_load Maximum permitted load of worker
-# TYPE kobo_worker_max_load gauge
-kobo_worker_max_load{worker="localhost"} 60.0
-kobo_worker_max_load{worker="pub-dev-pubd7"} 60.0
-# HELP kobo_worker_open_tasks Current number of OPEN tasks for worker
-# TYPE kobo_worker_open_tasks gauge
-kobo_worker_open_tasks{worker="localhost"} 0.0
-kobo_worker_open_tasks{worker="pub-dev-pubd7"} 0.0
-# HELP kobo_worker_last_seen_seconds Time of worker's last communication with hub
-# TYPE kobo_worker_last_seen_seconds gauge
-kobo_worker_last_seen_seconds{worker="localhost"} 1.625644554e+09
-kobo_worker_last_seen_seconds{worker="pub-dev-pubd7"} 0.0
-```
-
+order to add a [prometheus](https://prometheus.io/)-compatible metrics endpoint
+exposing kobo metrics.
 
 ## Usage
 
@@ -97,6 +67,37 @@ urlpatterns = [
 ```
 
 4. Access metrics at `<your_service>/kobo_exporter/metrics`.
+
+The metrics endpoint will provide basic information on workers,
+as in example:
+
+```
+# HELP kobo_worker_enabled 1 if worker is enabled
+# TYPE kobo_worker_enabled gauge
+kobo_worker_enabled{worker="localhost"} 1.0
+kobo_worker_enabled{worker="pub-dev-pubd7"} 1.0
+# HELP kobo_worker_ready 1 if worker is ready
+# TYPE kobo_worker_ready gauge
+kobo_worker_ready{worker="localhost"} 1.0
+kobo_worker_ready{worker="pub-dev-pubd7"} 1.0
+# HELP kobo_worker_load Current load of worker (sum of task weights)
+# TYPE kobo_worker_load gauge
+kobo_worker_load{worker="localhost"} 0.0
+kobo_worker_load{worker="pub-dev-pubd7"} 0.0
+# HELP kobo_worker_max_load Maximum permitted load of worker
+# TYPE kobo_worker_max_load gauge
+kobo_worker_max_load{worker="localhost"} 60.0
+kobo_worker_max_load{worker="pub-dev-pubd7"} 60.0
+# HELP kobo_worker_open_tasks Current number of OPEN tasks for worker
+# TYPE kobo_worker_open_tasks gauge
+kobo_worker_open_tasks{worker="localhost"} 0.0
+kobo_worker_open_tasks{worker="pub-dev-pubd7"} 0.0
+# HELP kobo_worker_last_seen_seconds Time of worker's last communication with hub
+# TYPE kobo_worker_last_seen_seconds gauge
+kobo_worker_last_seen_seconds{worker="localhost"} 1.625644554e+09
+kobo_worker_last_seen_seconds{worker="pub-dev-pubd7"} 0.0
+```
+
 
 ## License
 

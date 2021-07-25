@@ -9,13 +9,14 @@ jobs:
    name: pip-compile
    runs-on: ubuntu-latest
    steps:
+
+     - name: Install system dependencies
+       run: sudo apt-get install -y tox
+
      - name: Setup Python
        uses: actions/setup-python@v2
        with:
          python-version: "3.9"
-
-     - name: Install system dependencies
-       run: sudo apt-get install -y tox
 
      - name: pip-compile
        uses: technote-space/create-pr-action@v2

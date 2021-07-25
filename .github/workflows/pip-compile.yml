@@ -14,8 +14,8 @@ jobs:
        with:
          python-version: "3.9"
 
-     - name: Install system dependencies
-       run: sudo apt-get install -y tox
+     - name: Install tox
+       run: pip install tox
 
      - name: pip-compile
        uses: technote-space/create-pr-action@v2

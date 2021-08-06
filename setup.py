@@ -26,7 +26,7 @@ def get_long_description():
 
 setup(
     name="django-kobo-exporter",
-    version="0.1.2",
+    version="1.0.0",
     description="Prometheus exporter for kobo hub",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",

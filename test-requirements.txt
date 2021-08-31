@@ -82,8 +82,8 @@ isort==5.9.3 \
     --hash=sha256:9c2ea1e62d871267b78307fe511c0838ba0da28698c5732d54e2790bf3ba9899 \
     --hash=sha256:e17d6e2b81095c9db0a03a8025a957f334d6ea30b26f9ec70805411e5c7c81f2
     # via pylint
-kobo==0.20.0 \
-    --hash=sha256:ee61d677b0816075ff03e3aa71fbdf3fe02353f966c231a4cbacf952de7dc7ac
+kobo==0.20.1 \
+    --hash=sha256:41ef42a6d1cd3b2a0511b61da20e2bddd6147ee1f5e5438fe52a6d8d6916a6ae
     # via -r test-requirements.in
 lazy-object-proxy==1.6.0 \
     --hash=sha256:17e0967ba374fc24141738c69736da90e94419338fd4c7c7bef01ee26b339653 \

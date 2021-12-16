@@ -19,8 +19,7 @@ jobs:
         with:
           python-version: 2.7
 
-      - name: Install pip
-        # note: tox installed via apt doesn't play well with old python
+      - name: Install tox
         run: pip install tox
 
       - name: Run Tox
@@ -36,8 +35,8 @@ jobs:
         with:
           python-version: 3.9
 
-      - name: Install system dependencies
-        run: sudo apt-get install -y tox
+      - name: Install tox
+        run: pip install tox
 
       - name: Run Tox
         run: tox -e static,tests

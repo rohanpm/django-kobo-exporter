@@ -8,4 +8,10 @@ else:
         return list(args)
 
 
-__all__ = ["patterns"]
+try:
+    from django.urls import re_path
+except ImportError:  # pragma: no cover
+    from django.conf.urls import url as re_path
+
+
+__all__ = ["patterns", "re_path"]

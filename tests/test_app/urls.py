@@ -1,8 +1,8 @@
-from django.conf.urls import include, url
+from django.conf.urls import include
 
-from kobo_exporter.django_compat import patterns
+from kobo_exporter.django_compat import patterns, re_path
 
 urlpatterns = patterns(
     "",
-    url(r"^kobo_exporter/", include("kobo_exporter.urls")),
+    re_path(r"^kobo_exporter/", include("kobo_exporter.urls")),
 )

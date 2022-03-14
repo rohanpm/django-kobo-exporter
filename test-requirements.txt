@@ -71,8 +71,8 @@ isort==5.10.1 \
     --hash=sha256:6f62d78e2f89b4500b080fe3a81690850cd254227f27f75c3a0c491a1f351ba7 \
     --hash=sha256:e8443a5e7a020e9d7f97f1d7d9cd17c88bcb3bc7e218bf9cf5095fe550be2951
     # via pylint
-kobo==0.20.2 \
-    --hash=sha256:4ba3c507beb843966509aa2229d3b5d7e17a7511750f56e918a609ae774b4532
+kobo==0.20.3 \
+    --hash=sha256:e10486b7092a0ef3513df66db60d5344ee3ff709c3096010ba35ecf1d401dbeb
     # via -r test-requirements.in
 lazy-object-proxy==1.7.1 \
     --hash=sha256:043651b6cb706eee4f91854da4a089816a6606c1428fd391573ef8cb642ae4f7 \
@@ -145,9 +145,9 @@ pyparsing==3.0.7 \
     --hash=sha256:18ee9022775d270c55187733956460083db60b37d0d0fb357445f3094eed3eea \
     --hash=sha256:a6c06a88f252e6c322f65faf8f418b16213b51bdfaece0524c1c1bc30c63c484
     # via packaging
-pytest==7.0.1 \
-    --hash=sha256:9ce3ff477af913ecf6321fe337b93a2c0dcf2a0a1439c43f5452112c1e4280db \
-    --hash=sha256:e30905a0c131d3d94b89624a1cc5afec3e0ba2fbdb151867d8e0ebd49850f171
+pytest==7.1.0 \
+    --hash=sha256:b555252a95bbb2a37a97b5ac2eb050c436f7989993565f5e0c9128fcaacadd0e \
+    --hash=sha256:f1089d218cfcc63a212c42896f1b7fbf096874d045e1988186861a1a87d27b47
     # via
     #   -r test-requirements.in
     #   pytest-cov

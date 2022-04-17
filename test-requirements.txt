@@ -63,9 +63,9 @@ dill==0.3.4 \
     --hash=sha256:7e40e4a70304fd9ceab3535d36e58791d9c4a776b38ec7f7ec9afc8d3dca4d4f \
     --hash=sha256:9f9734205146b2b353ab3fec9af0070237b6ddae78452af83d2fca84d739e675
     # via pylint
-django==4.0.3 \
-    --hash=sha256:1239218849e922033a35d2a2f777cb8bee18bd725416744074f455f34ff50d0c \
-    --hash=sha256:77ff2e7050e3324c9b67e29b6707754566f58514112a9ac73310f60cd5261930
+django==4.0.4 \
+    --hash=sha256:07c8638e7a7f548dc0acaaa7825d84b7bd42b10e8d22268b3d572946f1e9b687 \
+    --hash=sha256:4e8177858524417563cc0430f29ea249946d831eacb0068a1455686587df40b5
     # via -r test-requirements.in
 iniconfig==1.1.1 \
     --hash=sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3 \
@@ -75,8 +75,8 @@ isort==5.10.1 \
     --hash=sha256:6f62d78e2f89b4500b080fe3a81690850cd254227f27f75c3a0c491a1f351ba7 \
     --hash=sha256:e8443a5e7a020e9d7f97f1d7d9cd17c88bcb3bc7e218bf9cf5095fe550be2951
     # via pylint
-kobo==0.22.0 \
-    --hash=sha256:0ddde47130232758ddd069320ed590e3a4d054732a6ce673ca118220f802e70a
+kobo==0.23.0 \
+    --hash=sha256:7d7c99e74702930edc2d556172caea45dea5d9b5876e178dbb4070d546bc4fa0
     # via -r test-requirements.in
 lazy-object-proxy==1.7.1 \
     --hash=sha256:043651b6cb706eee4f91854da4a089816a6606c1428fd391573ef8cb642ae4f7 \

@@ -8,9 +8,9 @@ asgiref==3.5.2 \
     --hash=sha256:1d2880b792ae8757289136f1db2b7b99100ce959b2aa57fd69dab783d05afac4 \
     --hash=sha256:4a29362a6acebe09bf1d6640db38c1dc3d9217c68e6f9f6204d72667fc19a424
     # via django
-astroid==2.12.12 \
-    --hash=sha256:1c00a14f5a3ed0339d38d2e2e5b74ea2591df5861c0936bb292b84ccf3a78d83 \
-    --hash=sha256:72702205200b2a638358369d90c222d74ebc376787af8fb2f7f2a86f7b5cc85f
+astroid==2.12.13 \
+    --hash=sha256:10e0ad5f7b79c435179d0d0f0df69998c4eef4597534aae44910db060baeb907 \
+    --hash=sha256:1493fe8bd3dfd73dc35bd53c9d5b6e49ead98497c47b2307662556a5692d29d7
     # via pylint
 attrs==22.1.0 \
     --hash=sha256:29adc2665447e5191d0e7c568fde78b21f9672d344281d0c6e1ab085429b22b6 \
@@ -76,9 +76,9 @@ django==4.1.3 \
     --hash=sha256:678bbfc8604eb246ed54e2063f0765f13b321a50526bdc8cb1f943eda7fa31f1 \
     --hash=sha256:6b1de6886cae14c7c44d188f580f8ba8da05750f544c80ae5ad43375ab293cd5
     # via -r test-requirements.in
-exceptiongroup==1.0.1 \
-    --hash=sha256:4d6c0aa6dd825810941c792f53d7b8d71da26f5e5f84f20f9508e8f2d33b140a \
-    --hash=sha256:73866f7f842ede6cb1daa42c4af078e2035e5f7607f0e2c762cc51bb31bbe7b2
+exceptiongroup==1.0.4 \
+    --hash=sha256:542adf9dea4055530d6e1279602fa5cb11dab2395fa650b8674eaec35fc4a828 \
+    --hash=sha256:bd14967b79cd9bdb54d97323216f8fdf533e278df937aa2a90089e7d6e06e5ec
     # via pytest
 iniconfig==1.1.1 \
     --hash=sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3 \
@@ -132,9 +132,9 @@ prometheus-client==0.15.0 \
     --hash=sha256:be26aa452490cfcf6da953f9436e95a9f2b4d578ca80094b4458930e5f584ab1 \
     --hash=sha256:db7c05cbd13a0f79975592d112320f2605a325969b270a94b71dcabc47b931d2
     # via -r test-requirements.in
-pylint==2.15.5 \
-    --hash=sha256:3b120505e5af1d06a5ad76b55d8660d44bf0f2fc3c59c2bdd94e39188ee3a4df \
-    --hash=sha256:c2108037eb074334d9e874dc3c783752cc03d0796c88c9a9af282d0f161a1004
+pylint==2.15.6 \
+    --hash=sha256:15060cc22ed6830a4049cf40bc24977744df2e554d38da1b2657591de5bcd052 \
+    --hash=sha256:25b13ddcf5af7d112cf96935e21806c1da60e676f952efb650130f2a4483421c
     # via -r test-requirements.in
 pyparsing==3.0.9 \
     --hash=sha256:2b020ecf7d21b687f219b71ecad3631f644a47f01403fa1d1036b0c6416d70fb \

@@ -84,7 +84,7 @@ def metrics_string(workers):
     ]
 
     for worker in workers:
-        for (metric, fn) in getters:
+        for metric, fn in getters:
             value = fn(worker)
             metric.labels(worker=worker).set(value)
 

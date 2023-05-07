@@ -69,9 +69,9 @@ dill==0.3.6 \
     --hash=sha256:a07ffd2351b8c678dfc4a856a3005f8067aea51d6ba6c700796a4d9e280f39f0 \
     --hash=sha256:e5db55f3687856d8fbdab002ed78544e1c4559a130302693d839dfe8f93f2373
     # via pylint
-django==4.2 \
-    --hash=sha256:ad33ed68db9398f5dfb33282704925bce044bef4261cd4fb59e4e7f9ae505a78 \
-    --hash=sha256:c36e2ab12824e2ac36afa8b2515a70c53c7742f0d6eaefa7311ec379558db997
+django==4.2.1 \
+    --hash=sha256:066b6debb5ac335458d2a713ed995570536c8b59a580005acb0732378d5eb1ee \
+    --hash=sha256:7efa6b1f781a6119a10ac94b4794ded90db8accbe7802281cd26f8664ffed59c
     # via -r test-requirements.in
 exceptiongroup==1.1.1 \
     --hash=sha256:232c37c63e4f682982c8b6459f33a8981039e5fb8756b2074364e5055c498c9e \
@@ -147,9 +147,9 @@ prometheus-client==0.16.0 \
     --hash=sha256:0836af6eb2c8f4fed712b2f279f6c0a8bbab29f9f4aa15276b91c7cb0d1616ab \
     --hash=sha256:a03e35b359f14dd1630898543e2120addfdeacd1a6069c1367ae90fd93ad3f48
     # via -r test-requirements.in
-pylint==2.17.3 \
-    --hash=sha256:761907349e699f8afdcd56c4fe02f3021ab5b3a0fc26d19a9bfdc66c7d0d5cd5 \
-    --hash=sha256:a6cbb4c6e96eab4a3c7de7c6383c512478f58f88d95764507d84c899d656a89a
+pylint==2.17.4 \
+    --hash=sha256:5dcf1d9e19f41f38e4e85d10f511e5b9c35e1aa74251bf95cdd8cb23584e2db1 \
+    --hash=sha256:7a1145fb08c251bdb5cca11739722ce64a63db479283d10ce718b2460e54123c
     # via -r test-requirements.in
 pytest==7.3.1 \
     --hash=sha256:3799fa815351fea3a5e96ac7e503a96fa51cc9942c3753cda7651b93c1cfa362 \

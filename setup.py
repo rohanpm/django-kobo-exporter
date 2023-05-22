@@ -41,7 +41,7 @@ setup(
     ],
     packages=find_packages(exclude=["tests"]),
     install_requires=["django", "prometheus-client", "kobo"],
-    python_requires=">=3.3",
+    python_requires=">=3.6",
     project_urls={
         "Changelog": "https://github.com/release-engineering/django-kobo-exporter/blob/master/CHANGELOG.md",
     },

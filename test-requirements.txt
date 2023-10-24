@@ -8,9 +8,9 @@ asgiref==3.7.2 \
     --hash=sha256:89b2ef2247e3b562a16eef663bc0e2e703ec6468e2fa8a5cd61cd449786d4f6e \
     --hash=sha256:9e0ce3aa93a819ba5b45120216b23878cf6e8525eb3848653452b4192b92afed
     # via django
-astroid==3.0.0 \
-    --hash=sha256:1defdbca052635dd29657ea674edfc45e4b5be9cd53630c5b084fcfed94344a8 \
-    --hash=sha256:f2510e7fdcd6cfda4ec50014726d4857abf79acfc010084ce8c26091913f1b25
+astroid==3.0.1 \
+    --hash=sha256:7d5895c9825e18079c5aeac0572bc2e4c83205c95d416e0b4fee8bc361d2d9ca \
+    --hash=sha256:86b0bb7d7da0be1a7c4aedb7974e391b32d4ed89e33de6ed6902b4b15c97577e
     # via pylint
 coverage[toml]==7.3.2 \
     --hash=sha256:0cbf38419fb1a347aaf63481c00f0bdc86889d9fbf3f25109cf96c26b403fda1 \
@@ -86,9 +86,9 @@ isort==5.12.0 \
     --hash=sha256:8bef7dde241278824a6d83f44a544709b065191b95b6e50894bdc722fcba0504 \
     --hash=sha256:f84c2818376e66cf843d497486ea8fed8700b340f308f076c6fb1229dff318b6
     # via pylint
-kobo==0.30.1 \
-    --hash=sha256:0abc8d492d12f0a449e9493d5f37d1223464b8f3df9c6496f5836e80d222770f \
-    --hash=sha256:b64cc5c8f779a45659ee7ccdd9ce651735af7ac71e6234c8838a0c631a713e24
+kobo==0.32.0 \
+    --hash=sha256:df68cec9f5412c4c9e8aeab15b13105b9f3611ea9054b0b2ca9dc5565ef91a86 \
+    --hash=sha256:fc74f56d823633203330aa19e4a8be4478c194968b19c0d6272082f17cd9ae62
     # via -r test-requirements.in
 mccabe==0.7.0 \
     --hash=sha256:348e0240c33b60bbdf4e523192ef919f28cb2c3d7d5c7794f74009290f236325 \
@@ -110,9 +110,9 @@ prometheus-client==0.17.1 \
     --hash=sha256:21e674f39831ae3f8acde238afd9a27a37d0d2fb5a28ea094f0ce25d2cbf2091 \
     --hash=sha256:e537f37160f6807b8202a6fc4764cdd19bac5480ddd3e0d463c3002b34462101
     # via -r test-requirements.in
-pylint==3.0.1 \
-    --hash=sha256:81c6125637be216b4652ae50cc42b9f8208dfb725cdc7e04c48f6902f4dbdf40 \
-    --hash=sha256:9c90b89e2af7809a1697f6f5f93f1d0e518ac566e2ac4d2af881a69c13ad01ea
+pylint==3.0.2 \
+    --hash=sha256:0d4c286ef6d2f66c8bfb527a7f8a629009e42c99707dec821a03e1b51a4c1496 \
+    --hash=sha256:60ed5f3a9ff8b61839ff0348b3624ceeb9e6c2a92c514d81c9cc273da3b6bcda
     # via -r test-requirements.in
 pytest==7.4.2 \
     --hash=sha256:1d881c6124e08ff0a1bb75ba3ec0bfd8b5354a01c194ddd5a0a870a48d99b002 \

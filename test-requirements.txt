@@ -88,9 +88,9 @@ isort==5.12.0 \
     --hash=sha256:8bef7dde241278824a6d83f44a544709b065191b95b6e50894bdc722fcba0504 \
     --hash=sha256:f84c2818376e66cf843d497486ea8fed8700b340f308f076c6fb1229dff318b6
     # via pylint
-kobo==0.33.0 \
-    --hash=sha256:34711f4ad0f38600bf7aafe6039b24d94458212de8b2b67c4b0c3144d47ef617 \
-    --hash=sha256:50f2eef41d1e528eba0bcdc04e6d88073353e6815abb86bf4fe3b1a7be449039
+kobo==0.34.0 \
+    --hash=sha256:49a3704277ec045cbc20f424bf4e82abc3e56a9e22eb15f18a4db26f51450e39 \
+    --hash=sha256:ba1b504fe8e255e55b0ee4de03eff439e7bc3b145d947ffdb5c641fe67e34839
     # via -r test-requirements.in
 mccabe==0.7.0 \
     --hash=sha256:348e0240c33b60bbdf4e523192ef919f28cb2c3d7d5c7794f74009290f236325 \
@@ -146,9 +146,9 @@ tomli==2.0.1 \
     #   coverage
     #   pylint
     #   pytest
-tomlkit==0.12.2 \
-    --hash=sha256:df32fab589a81f0d7dc525a4267b6d7a64ee99619cbd1eeb0fae32c1dd426977 \
-    --hash=sha256:eeea7ac7563faeab0a1ed8fe12c2e5a51c61f933f2502f7e9db0241a65163ad0
+tomlkit==0.12.3 \
+    --hash=sha256:75baf5012d06501f07bee5bf8e801b9f343e7aac5a92581f20f80ce632e6b5a4 \
+    --hash=sha256:b0a645a9156dc7cb5d3a1f0d4bab66db287fcb8e0430bdd4664a095ea16414ba
     # via pylint
 typing-extensions==4.8.0 \
     --hash=sha256:8f92fc8806f9a6b641eaa5318da32b44d401efaac0f6678c9bc448ba3605faa0 \

@@ -4,9 +4,9 @@
 #
 #    pip-compile --generate-hashes --output-file=test-requirements.txt test-requirements.in
 #
-asgiref==3.7.2 \
-    --hash=sha256:89b2ef2247e3b562a16eef663bc0e2e703ec6468e2fa8a5cd61cd449786d4f6e \
-    --hash=sha256:9e0ce3aa93a819ba5b45120216b23878cf6e8525eb3848653452b4192b92afed
+asgiref==3.8.1 \
+    --hash=sha256:3e1e3ecc849832fe52ccf2cb6686b7a55f82bb1d6aee72a58826471390335e47 \
+    --hash=sha256:c343bd80a0bec947a9860adb4c432ffa7db769836c64238fc34bdc3fec84d590
     # via django
 astroid==3.1.0 \
     --hash=sha256:951798f922990137ac090c53af473db7ab4e70c770e6d7fae0cec59f74411819 \
@@ -86,9 +86,9 @@ isort==5.13.2 \
     --hash=sha256:48fdfcb9face5d58a4f6dde2e72a1fb8dcaf8ab26f95ab49fab84c2ddefb0109 \
     --hash=sha256:8ca5e72a8d85860d5a3fa69b8745237f2939afe12dbf656afbcb47fe72d947a6
     # via pylint
-kobo==0.35.1 \
-    --hash=sha256:0820cb659672690e2a404b149763c676b0b04e21e71abd8d1808cc422b9a420a \
-    --hash=sha256:bbdff14eb23a3eeff12b0984e64703e70432443fcab3d9aad74b304c238f3a46
+kobo==0.36.0 \
+    --hash=sha256:bee50de7b683472e7cfb1e54def79243cec5cc72f80966596619473a1b1bf901 \
+    --hash=sha256:c23458f5dd9b46cdac4b5d21b9a469ae188681608d12572a37ab8a11eeb7df44
     # via -r test-requirements.in
 mccabe==0.7.0 \
     --hash=sha256:348e0240c33b60bbdf4e523192ef919f28cb2c3d7d5c7794f74009290f236325 \
@@ -121,9 +121,9 @@ pytest==8.1.1 \
     #   -r test-requirements.in
     #   pytest-cov
     #   pytest-django
-pytest-cov==4.1.0 \
-    --hash=sha256:3904b13dfbfec47f003b8e77fd5b589cd11904a21ddf1ab38a64f204d6a10ef6 \
-    --hash=sha256:6ba70b9e97e69fcc3fb45bfeab2d0a138fb65c4d0d6a41ef33983ad114be8c3a
+pytest-cov==5.0.0 \
+    --hash=sha256:4f0764a1219df53214206bf1feea4633c3b558a2925c8b59f144f682861ce652 \
+    --hash=sha256:5837b58e9f6ebd335b0f8060eecce69b662415b16dc503883a02f45dfeb14857
     # via -r test-requirements.in
 pytest-django==4.8.0 \
     --hash=sha256:5d054fe011c56f3b10f978f41a8efb2e5adfc7e680ef36fb571ada1f24779d90 \

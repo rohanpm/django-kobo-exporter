@@ -86,9 +86,9 @@ isort==5.13.2 \
     --hash=sha256:48fdfcb9face5d58a4f6dde2e72a1fb8dcaf8ab26f95ab49fab84c2ddefb0109 \
     --hash=sha256:8ca5e72a8d85860d5a3fa69b8745237f2939afe12dbf656afbcb47fe72d947a6
     # via pylint
-kobo==0.36.2 \
-    --hash=sha256:e41aeb5739d2b3578fb411978ee66f5d84a8d47a0f23fe076f905eb94806ec32 \
-    --hash=sha256:e451421280a08df9d794582af9693f03fe2290db5041a08fdbee02a587a51bbf
+kobo==0.37.0 \
+    --hash=sha256:05ee956fb40aff3eaa2abf2cdec931245f5d6fb6ba8ea6c19f6e26c7ea602fb9 \
+    --hash=sha256:3a76e9748a1d218aa91e7ae6ffaed43dcd25984cb09a9c1db19a1f7648665141
     # via -r test-requirements.in
 mccabe==0.7.0 \
     --hash=sha256:348e0240c33b60bbdf4e523192ef919f28cb2c3d7d5c7794f74009290f236325 \
